@@ -1,0 +1,12 @@
+version: "2.0"
+volumes:
+  mysql:
+services:
+  mysql:
+    build: ./mysql
+  php:
+    build: ./php
+  apache:
+    build: ./apache
+    ports:
+      - "80:80"
