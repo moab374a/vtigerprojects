@@ -1,0 +1,7 @@
+build-variables:
+    services:
+        db:
+            - MYSQL_ROOT_PASSWORD=mioga100Prozent
+            - MYSQL_DATABASE=vtiger
+            - MYSQL_USER=vtiger
+            - MYSQL_PASSWORD=77777777
